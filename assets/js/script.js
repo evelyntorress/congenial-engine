@@ -37,14 +37,14 @@ var questions = [
   },
 ];
 
+// Loop through the questions
 
-//questions[1].question1;
-var divContainer = document.querySelector(".divContainer");
-
-function displayQuestion() {
-  divContainer.textContent = questions[index].question1;
-  
+  for (var i = 0; i < questions.length; i++) {
+  index += questions[i];
 }
+
+
+
 
   //loop through choices
 //   questions[index].choices.forEach(function (value) {
@@ -57,16 +57,38 @@ function displayQuestion() {
 //   });
 // }
 
-function checkAnswer(event) {
-  console.log(event.target);
+
+
+
+// //questions[1].question1;
+// var divContainer = document.querySelector(".divContainer");
+
+// function displayQuestion() {
+//   divContainer.textContent = questions[index].question1;
+  
+// }
+
+  //loop through choices
+//   questions[index].choices.forEach(function (value) {
+//     console.log(value);
+//     var btn = document.createElement("button");
+//     btn.textContent = value;
+//     btn.classList.add("choiceBtn");
+//     answerContainer.appendChild(btn);
+//     answerContainer.onclick = checkAnswer();
+//   });
+// }
+
+// function checkAnswer(event) {
+//   console.log(event.target);
   //Grab the value of the button you clicked on
   //Use that value to compare to the answer
   //If correct: index++, call displayQuestion(), add score
   //If incorrect: index++, call displayQuestion(), substract score
-}
+// }
 //once a choice has been clicked on, index++, displayQuestion() is called again
 
-displayQuestion();
+// displayQuestion();
 
 
 // //startscreen.setAttribute("class", "hide")
