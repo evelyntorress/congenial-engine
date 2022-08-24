@@ -1,4 +1,4 @@
-# 04 Web APIs: Code Quiz
+# Web APIs: Code Quiz
 
 ## Description
 The goal of this project was to create a timed quiz on JavaScript fundamentals that stores high scores.
