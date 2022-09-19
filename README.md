@@ -20,7 +20,7 @@ The goal of this project was to create a timed quiz on JavaScript fundamentals t
 
 ## Link to the web-site
 
-https://github.com/evelyntorress/congenial-engine
+https://evelyntorress.github.io/congenial-engine/
 
 
 ## Screenshoot of the web-site
