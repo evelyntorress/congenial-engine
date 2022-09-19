@@ -18,11 +18,11 @@ The goal of this project was to create a timed quiz on JavaScript fundamentals t
 * THEN I can save my initials and my score
 
 
-## Link to the web-site
+## Deployed app
 
 https://evelyntorress.github.io/congenial-engine/
 
 
-## Screenshoot of the web-site
+## Mock up
 
 ![](assets/images/website.jpeg)
